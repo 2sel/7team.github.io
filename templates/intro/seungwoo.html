@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>개인페이지</title>
+
+  <link rel="stylesheet" type="text/css" href="seungwoo.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>;
+
+  <div class="frame">
+    <h3 class="site-name">송1김4</h3>
+    <div class="dashboard">
+      <h1 class="Greetings">Hello I am <a class="name">Seung Woo</a> <br>
+      </h1>
+      <p class="in">안녕하세요 내일 배움 캠프 4기 김승우입니다. 꾸준하게 버티면서 수료하는 게 목표입니다.🙏</p>
+    </div>
+
+
+
+    <div class="main">
+      <div class="Information">
+        <img class="info-img" id="my-img" src="seungwoo.png">
+        <div class="Information-info">
+          <h3 class="Information-name" id="name1">MBTI-ISFP</h3>
+          <p class="Information-comment" id="commnet1">모험가 ( ISFP) 는 내성적 , 관찰 적 , 감정적 , 미래 지향적 성격을 가진 사람입니다 .
+            그들은 열린 마음, 접근하는 삶, 새로운 경험, 따뜻한 사람을 갖고 있는 경향이 있습니다.
+            순간에 머무르는 능력은 흥미로운 잠재력을 발견하는 데 도움이 됩니다.
+          </p>
+
+        </div>
+      </div>
+      <div class="Information">
+        <div class=" Information-info">
+          <h3 class="Information-name" id="name2-1">객관적으로 살펴본 내 장점</h3>
+          <p class="Information-comment" id="comment2">꾸준하고 멘탈이 좋은 편이다. 문제가 생겼을 때 차분하게 해결하는 편이다
+          <h3 class="Information-name" id="name2-2">협업을 하는 과정에서의 자신의 스타일</h3>
+          <p class="Information-comment" id="comment2">보통 팀에 방향에 따르고 자기 할 일을 맡아서 하는 스타일이다.
+            역량에 따라 프로젝트에서 주도적인 역할을 수행하는 편이다.
+            팀원과의 소통을 중시하고 맡은 일을 책임을 다하려고 합니다
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+      <div class="mypost">
+        <form action="http://localhost:5000/login" method="post">
+          <div class="form-floating mb-3">
+            <input
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="닉네임을 입력해주세요"
+            />
+            <label for="floatingInput">닉네임</label>
+          </div>
+  
+          <div class="form-floating">
+            <textarea
+              id="comment"
+              class="form-control"
+              placeholder="코멘트를 남겨주세요"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2">코멘트</label>
+          </div>
+        </form>
+        <div class="mybtns">
+          <button onclick="save_templates()" type="button" class="btn btn-dark">
+            제출하기
+          </button>
+        </div>
+      </div>
+      <div class="mypost" id="comment_list"></div>
+</body>
+
+</html>
+
+
+
+<footer class="footer">
+  <h3 class="Another">
+    Another</h3>
+  <div class="links">
+    <a class="blog" href="https://kkssww.tistory.com/">Blog</a>
+    <a class="team-page" href="main.html">Team page</a>
+  </div>
+</footer>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>개인페이지</title>
+
+  <link rel="stylesheet" type="text/css" href="taewook.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>;
+
+  <div class="frame">
+    <h3 class="site-name">송1김4</h3>
+    <div class="dashboard">
+      <h1 class="Greetings">Hello I am <a class="name">TaeWook</a> <br>
+      </h1>
+      <p class="in">안녕하세요 95년생 김태욱 입니다. 비전공자 코린이 입니다. 부족한 만큼 열심히 하겠습니다.🤴</p>
+    </div>
+
+
+
+    <div class="main">
+      <div class="Information">
+        <img class="info-img" id="my-img" src="tw-modified.png">
+        <div class="Information-info">
+          <h3 class="Information-name" id="name1">MBTI-ESTJ</h3>
+          <p class="Information-comment" id="commnet1">경영자(ESTJ)는 전통과 질서를 중시하는 성격으로, 자신이 생각하는 옳고 그름과 사회적 기준에 따라 가족과 공동체가
+            화합할 수 있도록 노력합니다. 이들은 정직과 헌신과 존엄성을 중시하며, 어려운 길을 기꺼이 앞장서고 다른 사람들에게 명확한 조언과 지도를 제공합니다.
+          </p>
+
+        </div>
+      </div>
+      <div class="Information">
+        <div class=" Information-info">
+          <h3 class="Information-name" id="name2-1">객관적으로 살펴본 내 장점</h3>
+          <p class="Information-comment" id="comment2">잘 웃고 긍정적이며 매사에 긍정적이다!
+          <h3 class="Information-name" id="name2-2">협업을 하는 과정에서의 자신의 스타일</h3>
+          <p class="Information-comment" id="comment2">저는 의사소통을 통해 주제를 가지고 논의하고 부족한 부분을 채우면서 협동하는 스타일입니다!
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+      <div class="mypost">
+        <form action="http://localhost:5000/login" method="post">
+          <div class="form-floating mb-3">
+            <input
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="닉네임을 입력해주세요"
+            />
+            <label for="floatingInput">닉네임</label>
+          </div>
+  
+          <div class="form-floating">
+            <textarea
+              id="comment"
+              class="form-control"
+              placeholder="코멘트를 남겨주세요"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2">코멘트</label>
+          </div>
+        </form>
+        <div class="mybtns">
+          <button onclick="save_templates()" type="button" class="btn btn-dark">
+            제출하기
+          </button>
+        </div>
+      </div>
+      <div class="mypost" id="comment_list"></div>
+</body>
+
+</html>
+
+
+
+<footer class="footer">
+  <h3 class="Another">
+    Another</h3>
+  <div class="links">
+    <a class="blog" href="https://beaverbeaver.tistory.com/">Blog</a>
+    <a class="team-page" href="main.html">Team page</a>
+  </div>
+</footer>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>개인페이지</title>
+
+  <link rel="stylesheet" type="text/css" href="Yesle.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>;
+
+  <div class="frame">
+    <h3 class="site-name">송1김4</h3>
+    <div class="dashboard">
+      <h1 class="Greetings">Hello I am <a class="name">Yesle</a> <br>
+      </h1>
+      <p class="in">안녕하세요 내일 배움 캠프 4기 김예슬입니다. 기본기가 탄탄한 개발자가 되는 것이 목표입니다😀!</p>
+    </div>
+
+
+
+    <div class="main">
+      <div class="Information">
+        <img class="info-img" id="my-img" src="Yesle.png">
+        <div class="Information-info">
+          <h3 class="Information-name" id="name1">MBTI-ESFJ</h3>
+          <p class="Information-comment" id="commnet1">집정관(ESFJ)에게 인생이란 남과 함께 나눌 때 가장 즐거운 것입니다.
+            이들은 여러 사람을 하나로 모으는 역할을 하며 솔직하고 개방적인 태도로 친구와 연인과 이웃을 대합니다.
+            이들은 관대하고 믿을 수 있는 성격으로 가족과 주변 사람을 챙기기 위해 자신을 희생할 때가 많습니다.
+          </p>
+
+        </div>
+      </div>
+      <div class="Information">
+        <div class=" Information-info">
+          <h3 class="Information-name" id="name2-1">객관적으로 살펴본 내 장점</h3>
+          <p class="Information-comment" id="comment2">어떠한 상황이 벌어져도 긍정적으로 해결하고자 한다!
+          <h3 class="Information-name" id="name2-2">협업을 하는 과정에서의 자신의 스타일</h3>
+          <p class="Information-comment" id="comment2">아이디어를 먼저 내고 다가가는 타입이고 할 줄 아는 부분이 있다면 최대한 협력합니다!
+            또한 상황에 대한 공유를 자주 해서 놓치는 곳이 없도록 진행합니다!
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+      <div class="mypost">
+        <form action="http://localhost:5000/login" method="post">
+          <div class="form-floating mb-3">
+            <input
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="닉네임을 입력해주세요"
+            />
+            <label for="floatingInput">닉네임</label>
+          </div>
+  
+          <div class="form-floating">
+            <textarea
+              id="comment"
+              class="form-control"
+              placeholder="코멘트를 남겨주세요"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2">코멘트</label>
+          </div>
+        </form>
+        <div class="mybtns">
+          <button onclick="save_templates()" type="button" class="btn btn-dark">
+            제출하기
+          </button>
+        </div>
+      </div>
+      <div class="mypost" id="comment_list"></div>
+</body>
+
+</html>
+
+
+
+<footer class="footer">
+  <h3 class="Another">
+    Another</h3>
+  <div class="links">
+    <a class="blog" href="https://velog.io/@2sel">Blog</a>
+    <a class="team-page" href="main.html">Team page</a>
+  </div>
+</footer>
