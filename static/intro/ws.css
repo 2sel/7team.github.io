@@ -1,0 +1,184 @@
+* {
+  color: aliceblue;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+  /* background-color: rgb(73, 185, 222); */
+  background-color: black;
+}
+
+.frame {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*navigator*/
+
+.site-name {
+  margin: 0;
+
+  font-size: 24px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #49b9de;
+  transition: 0.3s;
+}
+
+/*dashboard*/
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.Greetings {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.name {
+
+  background-color: #49b9de;
+  -webkit-text-stroke: 1px black;
+}
+
+.name:hover {
+  background-color: transparent;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  transition: none;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.Another {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+.links>a {
+
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+#my-img {
+  width: 300px;
+}
+
+/* RECENT WORKS */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Information {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+.Information-info {
+  margin: 0px 20px;
+}
+
+.Information-name {
+
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.Information-name:hover {
+  color: #49b9de;
+  -webkit-text-stroke: 1px black;
+  transition: 0.3s;
+}
+
+.Information-comment {
+
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 5rem;
+}
+
+#comment1 {
+
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 8rem;
+}
+
+#name1:hover {
+  color: #49b9de;
+}
+
+#name1 {
+  position: relative;
+  right: 70px;
+  margin-left: 9rem;
+}
+
+
+#name2-1 {
+  max-width: 650px;
+  margin-left: 2rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+#name2-2 {
+  text-align: right;
+  position: relative;
+  margin-left: 5rem;
+}
+
+.mypost {
+  background-color: azure;
+  width: 95%;
+  margin: 200px auto 0px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px gray;
+}
+
+.mybtns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.mybtns>button {
+  margin-right: 10px;
+}
