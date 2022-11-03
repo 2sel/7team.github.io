@@ -361,6 +361,7 @@ body {
 }
 
 .card-body-hashtag {
+  width : 100%;
   margin-right: 100px;
 
   font-style: italic;
