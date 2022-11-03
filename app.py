@@ -8,7 +8,7 @@ import certifi
 ca = certifi.where()
 
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://2sel:daks0610@cluster0.bpe3ywu.mongodb.net/Cluster0?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://test:sparta@cluster0.3ytzhsg.mongodb.net/Cluster0?retryWrites=true&w=majority',tlsCAFile=ca)
 db = client.dbsparta
 
 
