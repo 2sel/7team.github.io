@@ -78,8 +78,8 @@ a:hover {
   border-bottom: 2px solid black;
 
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ceb3ff,
+    0 0 82px #ceb3ff, 0 0 92px #ceb3ff, 0 0 102px #ceb3ff, 0 0 151px #ceb3ff;
 }
 
 .links>a {
