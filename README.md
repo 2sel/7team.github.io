@@ -4,7 +4,7 @@
 ## 팀원 소개
 김유안|김승우|김예슬|김태욱|송원석|
 |------|------|------|------|------|
-|[Github]|[Github](https://github.com/coachkim)|[Github](https://github.com/2sel)|[Github](https://github.com/rlaxodnr30)|[Github](https://github.com/CircleSeok)|
+|[Github](https://github.com/innasz)|[Github](https://github.com/coachkim)|[Github](https://github.com/2sel)|[Github](https://github.com/rlaxodnr30)|[Github](https://github.com/CircleSeok)|
 
 ## 기능 구현
 * 메인 (김예슬)
